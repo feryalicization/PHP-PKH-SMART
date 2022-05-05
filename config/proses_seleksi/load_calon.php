@@ -1,13 +1,18 @@
 <?php
 include 'config/koneksi.php';
 
-$h = mysqli_query($koneksi, "SELECT id, keluarga, nama FROM CALON");
+
+$min= 0;
+$max = $_POST['max'];
+
+
+$h = mysqli_query($koneksi, "SELECT id, keluarga, nama FROM CALON where id between $min and $max");
 
 
 while ($d = mysqli_fetch_assoc($h)) {
 	$ds[] = $d;
 }
-
+ 
 
 foreach ($ds as $d) {
 	$id = $d['id'];

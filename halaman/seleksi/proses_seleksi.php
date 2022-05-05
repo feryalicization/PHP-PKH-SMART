@@ -15,9 +15,25 @@
                                 <h4>Seleksi Calon Penerima Bantuan PKH Dengan Metode SMART</h4>
                             </div>
                         </div>
+                        <br> 
+
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <form action="index.php?url=hasil_seleksi" method="POST">
+
+                                <div class="col-md-4">
+                                </div>
+
+                                <div style="text-align: center;" class="col-md-4">
+                                    <label for="">Kuota</label>
+                                    <input type="text" name="max" value="" class="form-control" placeholder="masukan kuota penerima" required>
+                            
+                                </div>
+
+                                <div class="col-md-4">
+                                </div>
+
+                                <br><br><br><br>
                               
                                 <div class="col-lg-12" align="center">
                                     <button class="btn btn-lg btn-info"><i class="  fa fa-refresh"></i> Mulai Seleksi</button>

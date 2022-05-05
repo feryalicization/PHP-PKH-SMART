@@ -20,7 +20,7 @@
                                 <div class="panel-body">
                                     <table id="dataTables-result" class="table table-bordered ctr">
                                         <thead>
-                                            <tr>
+                                            <tr> 
                                                 <th width="100">Ranking</th>
                                                 <th>Nama</th>
                                                 <th>%</th>
