@@ -1,3 +1,12 @@
+<style>
+    tr:nth-child(n + 101) {
+    visibility: hidden;
+}
+.dataTables_length {
+        display: none;
+    }
+</style>        
+        
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
@@ -22,7 +31,7 @@
                                         <thead>
                                             <tr> 
                                                 <th width="100">Ranking</th>
-                                                <th>Nama</th>
+                                                <th>Keluarga</th>
                                                 <th>%</th>
                                             </tr>
                                         </thead>
@@ -47,3 +56,17 @@
 
         </div>
         <!-- /#page-wrapper -->
+
+
+
+<script>
+     $(document).ready( function () {
+        $('#result').dataTable( {
+          "lengthChange": false
+        } );
+    } )
+</script>
+
+
+
+        

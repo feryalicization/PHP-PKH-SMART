@@ -26,7 +26,6 @@
                                         <tr>
                                             <th width="50">No</th>
                                             <th>Keluarga</th>
-                                            <th>Nama</th>
                                             <th>Aksi</th>
                                         </tr> 
                                     </thead>
@@ -37,7 +36,6 @@
                                         <tr>
                                             <td align="center"><?php echo $x++; ?></td>
                                             <td><?php echo $data['keluarga']; ?></td>
-                                            <td><?php echo $data['nama']; ?></td>
                                             
                                             <td align="center">
                                                 <a href="index.php?url=data_calon_lihat&id=<?php echo $data['id'] ?>" class="btn btn-xs btn-info" title="Lihat">
